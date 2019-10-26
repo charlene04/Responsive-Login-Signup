@@ -11,8 +11,7 @@
     />
     <style>
       
-html{
-  height: 100%;
+html, body{
   min-height: 100%;
   width: 100%;
 }
@@ -28,7 +27,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "poppins", sans-serif;
-  height: 100vh; 
+  
 }
 
 h1 {
@@ -274,8 +273,12 @@ input {
   display: none;
 }
 @media screen and (max-width: 580px) {
+  form {
+  
+  padding: 0 20px;
+  }
   .form-container {
-  height: 75%;
+  height: 70%;
   }
 [sign-up-link], [sign-in-link]{
   display: block;
